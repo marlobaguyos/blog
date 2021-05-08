@@ -1,5 +1,5 @@
 body {
-  font-family: 'Goblin One', cursive;
+  font-family: 'Orbitron', sans-serif;
   font-size: 18px;
 }
 
@@ -13,8 +13,6 @@ header h1 a{
   color: red;
   text-decoration: none;
   border-bottom: 1px solid #999;
-  margin: 2rem;
-  display: flex;
 }
 
 .nav-left{
