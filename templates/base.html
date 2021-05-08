@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Django blog</title>
+  </head>
+    <header>
+      <h1><a href="{% url 'home' %}"></a></h1>
+    </header>
+    <div>
+      {% block content %}
+      {% endblock content %}
+    </div>
+</html>
