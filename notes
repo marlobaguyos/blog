@@ -6,7 +6,6 @@ git branch -M main
 git remote add origin url ------Only when you need to add the remote location
 git push -u origin main
 
-
 heroku login
 heroku create
 heroku config:set DISABLE_COLLECTSTATIC=1
@@ -21,9 +20,6 @@ heroku ps:scale web=1
 7. (venv) python3 manage.py startapp blog
 8. (venv) python3 manage.py migrate
 9. python3 manage.py runserver
-
-
-
 
 python3 manage.py makemigrations
 python3 manage.py migrate
