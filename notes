@@ -5,6 +5,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin url ------Only when you need to add the remote location
 git push -u origin main
+git remote set-url - set the remote repo
+
 
 heroku login
 heroku create
