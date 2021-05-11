@@ -30,3 +30,9 @@ python3 manage.py createsuperuser
 pip3 install gunicorn
 touch Procfile
 web: gunicorn config.wsgi --log-file -
+
+
+https://mighty-bastion-25382.herokuapp.com/ | https://git.heroku.com/mighty-bastion-25382.git
+
+
+heroku apps:destroy - to delete 
